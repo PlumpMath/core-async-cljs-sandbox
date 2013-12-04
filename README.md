@@ -7,3 +7,8 @@ Run server with:
 In another shell, setup auto cljs build:
 
     lein cljsbuild auto
+
+Currently using (python) livereload from aura, rather than a clojure version:
+
+    aura -A livereload
+    livereload resources

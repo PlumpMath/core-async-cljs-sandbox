@@ -4,4 +4,4 @@
             [goog.events :as events]
             [cljs.core.async :refer [put! chan <!]]))
 
-(js/alert "Hello again")
+(.log js/console "Hello again")

@@ -9,7 +9,6 @@
     (handler (update-in req [:uri] #(if (= "/" %) "/index.html" %)))))
 
 (defn handler [request]
-  (prn request)
   (response/not-found "Not found"))
 
 (def app 
