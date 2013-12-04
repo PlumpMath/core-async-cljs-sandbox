@@ -3,3 +3,26 @@ body {
   margin: 0 auto;
   font-family: "Arial", sans-serif;
 }
+
+article {
+  border: 1px #4e4e4e dotted;
+  padding: 1em;
+}
+/* clearfix */
+article:before, article:after {
+    content: "";
+    display: table;
+}
+article:after {
+    clear: both;
+}
+
+article h1 {
+    margin: 0;
+    float: right;
+}
+
+/* 101 */
+#article-101 #inputs {
+    float: left;
+}

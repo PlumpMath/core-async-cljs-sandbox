@@ -9,10 +9,19 @@
     <header>
         <h1>cljs / core.async sandbox</h1>
     </header>
-        <p>Hello world</p>
+    <article id="article-101">
+        <h1>101</h1>
+        <div id="inputs">
+            <input id="query" type="text"></input>
+            <button id="search">Search</button>
+        </div>
+        <p id="results"></p>
+    </article>
     <footer>
         
     </footer>
-    <script src="js/cljs.js"></script>
+    <script src="js/target/goog/base.js" type="text/javascript"></script>
+    <script src="js/target/cljs.js" type="text/javascript"></script>
+    <script type="text/javascript">goog.require("core_async_cljs_sandbox.core")</script>
 </body>
 </html>
