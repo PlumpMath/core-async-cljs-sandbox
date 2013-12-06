@@ -1,4 +1,4 @@
-(ns core-async-cljs-sandbox.core
+(ns core-async-cljs-sandbox.tutorial-101
   (:require-macros [cljs.core.async.macros :refer [go]])
   (:require [goog.dom :as dom]
             [goog.events :as events]
